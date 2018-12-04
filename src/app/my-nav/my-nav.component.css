@@ -1,0 +1,42 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+.sidenav-container {
+  height: 100%;
+}
+.fill-space {
+flex: 1 1 auto;
+}
+.sidenav {
+  width: 200px;
+}
+
+sidenav{
+  background: inherit;
+}
+mat-toolbar{
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.a{
+  border: 3px black dotted;
+}
+button{
+  background:#2ecc71;
+  width:125px;
+  padding-top:5px;
+  padding-bottom:5px;
+  color:white;
+  border-radius:4px;
+  border: #27ae60 1px solid;
+
+  margin-top:20px;
+  margin-bottom:20px;
+  float:left;
+  margin-left:16px;
+  font-weight:800;
+  font-size:0.8em;
+}

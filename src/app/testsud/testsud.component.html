@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body ng-app="testsud">
+<h1>Nord VS Sud</h1>
+<div ng-controller="myCtrl">
+  <table>
+    <tr>
+      <td> <img id="imgChoco" src="../assets/Images/Pain-au-chocolat-ou-chocolatine.jpg" width="270" height="295" alt="Chocolatine" border="5" bordercolor="black" (click)="fnChangeBorder('imgChoco','imgPain')" />
+        <br />
+        <strong><span>Chocolatine</span></strong></td>
+      <td> <strong><span> VS </span></strong></td>
+      <td><img  id="imgPain" src="../assets/Images/Pain-au-chocolat-ou-chocolatine.jpg" width="270" height="295" alt="painchoco" border="5" bordercolor="black" (click)="fnChangeBorder('imgPain','imgChoco')" />
+        <br />
+        <strong><span>Pain au chocolat</span></strong></td>
+    </tr>
+  </table>
+</div>
+<div ng-controller="myCtrl">
+  <table>
+    <tr>
+      <td> <img id="imgPastis" src="../assets/Images/280px-Pastis.jpg" width="270" height="295" alt="Pastis" border="5" bordercolor="black" (click)="fnChangeBorder('imgPastis','imgBiere')" />
+        <br />
+        <strong><span>Pastis</span></strong></td>
+      <td> <strong><span> VS </span></strong></td>
+      <td><img  id="imgBiere" src="../assets/Images/o-BIERE-ARTISANALES-facebook.jpg" width="270" height="295" alt="Biere" border="5" bordercolor="black" (click)="fnChangeBorder('imgBiere','imgPastis')" />
+        <br />
+        <strong><span>Biere</span></strong></td>
+    </tr>
+  </table>
+</div>
+<div ng-controller="myCtrl">
+  <table>
+    <tr>
+      <td> <img id="imgalpe" src="../assets/Images/default-l-alpe-d-huez-4e1ac-1.jpg" width="270" height="295" alt="Chocolatine" border="5" bordercolor="black" (click)="fnChangeBorder('imgalpe','imgpyrenne')" />
+        <br />
+        <strong><span>Alpe d'huez</span></strong></td>
+      <td> <strong><span> VS </span></strong></td>
+      <td><img  id="imgpyrenne" src="../assets/Images/pyrenne.jpg" width="270" height="295" alt="painchoco" border="5" bordercolor="black" (click)="fnChangeBorder('imgpyrenne','imgalpe')" />
+        <br />
+        <strong><span>Pyrénées</span></strong></td>
+    </tr>
+  </table>
+</div>
+<div ng-controller="myCtrl">
+  <table>
+    <tr>
+      <td> <img id="imgChou" src="../assets/Images/choucroute.jpg" width="270" height="295" alt="Chocolatine" border="5" bordercolor="black" (click)="fnChangeBorder('imgChou','imgCass')" />
+        <br />
+        <strong><span>Choucroute</span></strong></td>
+      <td> <strong><span> VS </span></strong></td>
+      <td><img  id="imgCass" src="../assets/Images/i8248-cassoulet-de-castelnaudary.jpg" width="270" height="295" alt="painchoco" border="5" bordercolor="black" (click)="fnChangeBorder('imgCass','imgChou')" />
+        <br />
+        <strong><span>Cassoulet</span></strong></td>
+    </tr>
+  </table>
+</div>
+<div ng-controller="myCtrl">
+  <table>
+    <tr>
+      <td> <img id="imgmall" src="../assets/Images/malle.jpg" width="270" height="295" alt="Chocolatine" border="5" bordercolor="black" (click)="fnChangeBorder('imgmall','imgcoff')" />
+        <br />
+        <strong><span>Malle</span></strong></td>
+      <td> <strong><span> VS </span></strong></td>
+      <td><img  id="imgcoff" src="../assets/Images/malle.jpg" width="270" height="295" alt="painchoco" border="5" bordercolor="black" (click)="fnChangeBorder('imgcoff','imgmall')" />
+        <br />
+        <strong><span>Coffre</span></strong></td>
+    </tr>
+  </table>
+</div>
+<div ng-controller="myCtrl">
+  <table>
+    <tr>
+      <td> <img id="imgchat" src="../assets/Images/chat.jpg" width="270" height="295" alt="Chocolatine" border="5" bordercolor="black" (click)="fnChangeBorder('imgchat','imgchiot')" />
+        <br />
+        <strong><span>Chat</span></strong></td>
+      <td> <strong><span> VS </span></strong></td>
+      <td><img  id="imgchiot" src="../assets/Images/chiot.jpg" width="270" height="295" alt="painchoco" border="5" bordercolor="black" (click)="fnChangeBorder('imgchiot','imgchat')" />
+        <br />
+        <strong><span>Chien</span></strong></td>
+    </tr>
+  </table>
+</div>
+<div ng-controller="myCtrl">
+  <table>
+    <tr>
+      <td> <img id="imgfoisgras" src="../assets/Images/foie-gras.jpg" width="270" height="295" alt="Chocolatine" border="5" bordercolor="black" (click)="fnChangeBorder('imgfoisgras','imgpate')" />
+        <br />
+        <strong><span>Foie gras</span></strong></td>
+      <td> <strong><span> VS </span></strong></td>
+      <td><img  id="imgpate" src="../assets/Images/pate-de-foie-de-porc.jpg" width="270" height="295" alt="painchoco" border="5" bordercolor="black" (click)="fnChangeBorder('imgpate','imgfoisgras')" />
+        <br />
+        <strong><span>Pate</span></strong></td>
+    </tr>
+  </table>
+</div>
+<div ng-controller="myCtrl">
+  <table>
+    <tr>
+      <td> <img id="imgcbleu" src="../assets/Images/cielbleu.jpg" width="270" height="295" alt="Chocolatine" border="5" bordercolor="black" (click)="fnChangeBorder('imgcbleu','imgcgris')" />
+        <br />
+        <strong><span>Ciel Bleu</span></strong></td>
+      <td> <strong><span> VS </span></strong></td>
+      <td><img  id="imgcgris" src="../assets/Images/cielgris.jpg" width="270" height="295" alt="painchoco" border="5" bordercolor="black" (click)="fnChangeBorder('imgcgris','imgcbleu')" />
+        <br />
+        <strong><span>Ciel Gris</span></strong></td>
+    </tr>
+  </table>
+</div>
+<div ng-controller="myCtrl">
+  <table>
+    <tr>
+      <td> <img id="imgverS" src="../assets/Images/verre-a-moitie.jpg" width="270" height="295" alt="Chocolatine" border="5" bordercolor="black" (click)="fnChangeBorder('imgverS','imgverN')" />
+        <br />
+        <strong><span>A moitie plien</span></strong></td>
+      <td> <strong><span> VS </span></strong></td>
+      <td><img  id="imgverN" src="../assets/Images/verre-a-moitie.jpg" width="270" height="295" alt="painchoco" border="5" bordercolor="black" (click)="fnChangeBorder('imgverN','imgverS')" />
+        <br />
+        <strong><span>A moitie vide</span></strong></td>
+    </tr>
+  </table>
+</div>
+<div ng-controller="myCtrl">
+  <table>
+    <tr>
+      <td> <img id="imgcrayonPapier" src="../assets/Images/crayon.jpg" width="270" height="295" alt="Chocolatine" border="5" bordercolor="black" (click)="fnChangeBorder('imgcrayonPapier','imgcrayonBois')" />
+        <br />
+        <strong><span>Crayon à Papier</span></strong></td>
+      <td> <strong><span> VS </span></strong></td>
+      <td><img  id="imgcrayonBois" src="../assets/Images/crayon.jpg" width="270" height="295" alt="painchoco" border="5" bordercolor="black" (click)="fnChangeBorder('imgcrayonBois','imgcrayonPapier')" />
+        <br />
+        <strong><span>Crayon de Bois</span></strong></td>
+    </tr>
+  </table>
+</div>
+<div ng-controller="myCtrl">
+  <table>
+    <button (click)="send('imgChoco','imgPastis','imgpyrenne','imgCass','imgmall','imgchiot','imgfoisgras','imgcbleu','imgverS','imgcrayonPapier')" color="primary">Send</button>
+  </table>
+</div>
+</body>
+</html>
